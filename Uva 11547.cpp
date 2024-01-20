@@ -7,7 +7,7 @@ int main()
     while (t--)
         {scanf("%d",&n);
     int r=abs(((n*567/9+7492)*235/47)-498);
-    int onecol=(r/10)%10;
-    printf("%d\n",onecol);}
+    int tenscol=(r/10)%10;
+    printf("%d\n", tenscol);}
     return 0;
 }
